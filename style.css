@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.screen{
+    height: 30px;
+   width: 100%;
+    font-size: 30px;
+    
+    
+}
+
+.calculator {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+    background-color: #283e4a;
+}
+
+.number{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+}
+.function{
+    height: 125px;
+    width: 125px;
+    font-size: 50px;
+}
