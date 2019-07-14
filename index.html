@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <link rel="icon" href="font-awesome_4-7-0_calculator_79_0_95a5a6_none.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="" name="calculator">
+        <table class="calculator">
+              <tr>
+                  <th colspan="4"> <h1>BASIC CALCULATOR</h1></th>
+              </tr>
+            <tr>
+                <th colspan="4"> <input type="text" name="screen" class="screen" placeholder="Result"><br></th>
+
+
+            </tr>
+            <tr>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='1'">1</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='2'">2</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='3'">3</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='/'">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='4'">4</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='5'">5</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='6'">6</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='+'">+</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='7'">7</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='8'">8</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='9'">9</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='*'">*</button></td>
+            </tr>
+              <tr>
+                <td><button class="function" type="button" onClick="document.calculator.screen.value =''">C</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='0'">0</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value =eval(document.calculator.screen.value)">=</button></td>
+                <td><button class="number" type="button" onClick="document.calculator.screen.value +='-'">-</button></td>
+            </tr>
+
+
+
+        </table>
+
+
+    </form>
+
+
+
+
+
+</body>
+
+</html>
